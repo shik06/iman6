@@ -1,7 +1,145 @@
 body{
 	background-color: #FFFFE0;
+	
 }
 body{
 	font-family: 'Lato', sans-serif;
-font-family: 'Nunito', sans-serif;
+	font-family: 'Nunito', sans-serif;
+}
+
+
+/*Interesting*/
+.feature {
+    margin-bottom: 65px;
+}
+
+.feature__icon {
+    font-size: 50px;
+    margin-right: 37px;
+    color: #000
+}
+
+.feature__text {
+    color: #898989
+}
+
+.feedback {
+
+    background:#000;
+    color: #fff;
+}
+
+/* Футер*/
+
+.footer {
+
+background: #000;
+
+}
+
+.footer_info {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 50px 0 94px;
+    width: 184px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+H2{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+/*.footer_titles {
+
+}*/
+
+/*Feedback*/
+
+.blue{
+
+    color:#95d9fb;
+}
+
+.form_input{
+    background:#FFFFFF;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif; 
+    border-radius: 5px;
+    width: 580px;
+    padding: 15px 0;
+    margin-right: 21px;
+    border:0;
+    outline: none;
+
+}
+.title__main, .title__text {
+    text-align: center;
+}
+
+.button {
+  font-family: 'PT Sans', sans-serif; 
+  background:#e0413b;
+  color: #000;
+  text-transform:  uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  width: 126px;
+  border: 0;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .offer {
+        text-align: center;
+    }
+    .offer__text {
+        margin: 20px auto;
+        width: auto;
+    }
+    .icons {
+        justify-content: center;
+    }
+    .icons__item:nth-child(3) {
+        margin-right: 0;
+    }
+    .form__input {
+        margin-right:0;
+        width: 100%;
+    }
+    .button {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .title__text {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ipad {
+        width: 100%;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .menu__item {
+        text-align: center;
+        margin-bottom:10px;
+    }
 }
