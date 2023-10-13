@@ -7,6 +7,62 @@ body{
 	font-family: 'Nunito', sans-serif;
 }
 
+.header {
+    background-image: url(background.jpg)  ;
+    background-repeat: no-repeat;
+    background-size: 100% ; 
+    padding-bottom: 105px;
+}
+
+.menu {
+    margin-top:8px;
+}
+
+.menu__item {
+    margin: 0 57px;
+}
+
+.menu__item a {
+    font-size:22px;
+    font-weight:700;
+    color: #000;
+}
+
+.offer{
+    margin-top: 117px;
+}
+
+.offer__title {
+    font-size:32px;
+    margin-bottom: 15px;
+}
+
+.offer__intro {
+    font-size: 20px;
+    line-height: 1.3em;
+}
+
+.offer__text {
+    font-size: 16px;
+    margin-top:15px;
+    color: #555555;
+    width: 400px;
+}
+
+.icons__item {
+    margin-right:30px;
+}
+
+.icons__item a {
+    color: #000;
+    font-size: 42px;
+    transition: all 0.3s ease; /* плавная анимация*/
+}
+
+.icons__item a:hover {
+    text-decoration: none;
+    color: #ff4800;
+}  /* анимация при наведении на иконки*/
 
 /*Interesting*/
 .feature {
