@@ -8,10 +8,10 @@ body{
 }
 
 .header {
-    background-image: url(background.jpg)  ;
+    background-image: url(32.jpg)  ;
     background-repeat: no-repeat;
-    background-size: 100% ; 
-    padding-bottom: 105px;
+    background-size: 1500px ; 
+    padding-bottom: 300px;
 }
 
 .menu {
@@ -35,17 +35,19 @@ body{
 .offer__title {
     font-size:32px;
     margin-bottom: 15px;
+    color: #FFFFFF;
 }
 
 .offer__intro {
     font-size: 20px;
     line-height: 1.3em;
+    color: #FFFFFF;
 }
 
 .offer__text {
     font-size: 16px;
-    margin-top:15px;
-    color: #555555;
+    margin-top: 15px;
+    color: #FFFFFF;
     width: 400px;
 }
 
@@ -54,7 +56,7 @@ body{
 }
 
 .icons__item a {
-    color: #000;
+    color: #FFFFFF;
     font-size: 42px;
     transition: all 0.3s ease; /* плавная анимация*/
 }
@@ -96,11 +98,26 @@ background: #000;
 .footer_info {
     color: #fff;
     font-size: 16px;
-    text-align: center;
+    padding: 50px 0 94px;
+    width: 184px;
+    margin: 0 auto;
+    text-align: left;
+}
+.footer_info1 {
+    color: #fff;
+    font-size: 16px;
     padding: 50px 0 94px;
     width: 184px;
     margin: 0 auto;
     text-align: center;
+}
+.footer_info2 {
+    color: #fff;
+    font-size: 16px;
+    padding: 50px 0 94px;
+    width: 184px;
+    margin: 0 auto;
+    text-align: right;
 }
 
 h3{
