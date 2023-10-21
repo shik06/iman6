@@ -12,7 +12,8 @@
 
 
    <!-- Bootstrap -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -22,8 +23,59 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 
+   <link rel="stylesheet" type="text/css" href="animate.css">
+
 </head>
 <body>
+    <!-- <nav class="navbar navbar-expand-sm">
+
+            <div class="ml-3">
+                <img src="https://irecommend.ru/sites/default/files/product-images/401476/aRmUsKvDddkOFhFPJFcvw.jpg" width="50" height="50" class="d-inline-block align-top" alt="">
+            </div>
+            
+            <div class="collapse navbar-collapse" id="IDofMENU">
+                
+                <ul class="navbar-nav m-1 text-white">
+
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#">Главная</a>
+                    </li>       
+                        
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbar-Dropdown" role="button" data-toggle="dropdown">Меню</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#cards">Вок</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Бургеры</a>
+                            <a class="dropdown-item" href="#">Роллы</a>
+                            <a class="dropdown-item" href="#">Гёдза</a>
+                            <a class="dropdown-item" href="#">Супы</a>
+                            <a class="dropdown-item" href="#">Салаты</a>
+                            <a class="dropdown-item" href="#">Десерты</a>
+                            <a class="dropdown-item" href="#">Прохладительные напитки</a>
+                            <a class="dropdown-item" href="#">Горячие напитки</a>
+                            <a class="dropdown-item" href="#">Газированные напитки</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="bebebe.html">Адреса</a>
+                    </li>
+
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#">O доставке</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="IDofMENU" aria-controls="IDofMENU" aria-expended="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                                                      
+        </nav> -->
+    
     <nav class="navbar navbar-expand-xl navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -40,8 +92,14 @@
                     <li class="nav-item">
                       <a class="nav-link" href="#">Команды</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Величайшие баскетболисты</a>
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbar-Dropdown" role="button" data-toggle="dropdown">команды</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">команды</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">чикаго булз</a>
+                            <a class="dropdown-item" href="#">бостон селтикс</a>
+                            <a class="dropdown-item" href="#">лейкерс</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -55,21 +113,56 @@
         </div>
     </nav>
 
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Панель навигации</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Рекомендуемые</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Цена</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Выпадающий список ссылкой
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Действие</a></li>
+            <li><a class="dropdown-item" href="#">Другое действие</a></li>
+            <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+
 <header id="header" class="header">
 		<div class="container"> 
 			<div class="row">
 				<div class="col-lg-6">
 				 	<div class="offer animated fadeInLeft">
-                        <h1 class="offer__title">
+                        <h1 class="offer__title"> 
                             Сайт-визитка
                         </h1>
                     </div>  
                     <div class="offer__intro">
-                    	Лучший сайт про Национальную Баскетбольную ассоциация
-
+                    	История НБА
                     </div> 
+                    <div class="col-lg-10">
                     <p class="offer__text">
-                        На данном сайте представленны лучшие баскетболисты,комнады,и история лиги
+                        Национальная баскетбольная ассоциация (NBA) - профессиональная баскетбольная лига в Северной Америке, состоящая из 30 команд (29 в Соединенных Штатах и 1 в Канаде). Это одна из главных профессиональных спортивных лиг в Соединенных Штатах и Канаде и считается главной профессиональной баскетбольной лигой в мире.
+                        Лига была основана в Нью-Йорке 6 июня 1946 года как Баскетбольная ассоциация Америки (BAA). 3 августа 1949 года она сменила название на Национальную баскетбольную ассоциацию после слияния с конкурирующей Национальной баскетбольной лигой (НБЛ). В 1976 году НБА и Американская баскетбольная ассоциация (ABA) объединились, добавив к НБА четыре франшизы. Регулярный сезон НБА длится с октября по апрель, каждая команда проводит 82 матча. Плей-офф турнира лиги продлится до июня. По состоянию на 2020 год игроки НБА являются самыми высокооплачиваемыми спортсменами в мире по среднегодовой зарплате на игрока.
+                        НБА является активным членом организации USA Basketball (USAB), которая признана ФИБА (Международная федерация баскетбола) национальным руководящим органом по баскетболу в Соединенных Штатах. Несколько международных офисов лиги, а также офисы отдельных команд находятся в ее головных офисах в центре Манхэттена, в то время как ее студии NBA Entertainment и NBA TV находятся в офисах, расположенных в Секокусе, Нью-Джерси. В Северной Америке НБА является третьей по богатству профессиональной спортивной лигой после Национальной футбольной лиги (НФЛ) и Высшей лиги бейсбола (МЛБ) по доходам и входит в четверку лучших в мире.
+                        Бостон Селтикс и Лос-Анджелес Лейкерс сыграли вничью в большинстве чемпионатов НБА - по 17 у каждого. Действующими чемпионами лиги являются "Денвер Наггетс", обыгравшие "Майами Хит" в финале НБА 2023 года.
                     </p> 
                     <ul class="icons d-flex">
                         <li class="icons__item">
@@ -92,55 +185,14 @@
 			</div>
 		</div>
 	</header>
-
-<!--
-   <div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="http://sportslive.ru/wp-content/uploads/2-9.jpg" class="d-block " alt="шакил о нил" width="1500px" height="400px">
-
-    </div>
-    <div class="carousel-item">
-      <img src="https://www.slamdunk.ru/uploads/monthly_2023_02/skysports-lebron-james-la-lakers_6049970.jpg.8ba08bf472ed4fd8b76b07ee1292c8cf.jpg"  class="d-block" alt="леброн джеймс" width="1500px" height="400px">
-    </div>
-    <div class="carousel-item">
-      <img src="https://i.pinimg.com/originals/4a/f4/71/4af471875e04c32a4723292fa518346a.jpg" class="d-block " alt="джордан" height="400px" width="1500px">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Предыдущий</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Следующий</span>
-  </button>
-</div>
---> 
 <header>
     <div class="container">
-        <div class="row">
-            <div>
-                <h1>ИСТОРИЯ НБА</h1>
-            </div>
-        </div>
-            <img src="https://ir.ozone.ru/s3/multimedia-7/6642041083.jpg" width="35%" height="35%">
-        <div class="row">
-            <div class="col-lg-10">
-                Национальная баскетбольная ассоциация (NBA) - профессиональная баскетбольная лига в Северной Америке, состоящая из 30 команд (29 в Соединенных Штатах и 1 в Канаде). Это одна из главных профессиональных спортивных лиг в Соединенных Штатах и Канаде и считается главной профессиональной баскетбольной лигой в мире.
-                Лига была основана в Нью-Йорке 6 июня 1946 года как Баскетбольная ассоциация Америки (BAA). 3 августа 1949 года она сменила название на Национальную баскетбольную ассоциацию после слияния с конкурирующей Национальной баскетбольной лигой (НБЛ). В 1976 году НБА и Американская баскетбольная ассоциация (ABA) объединились, добавив к НБА четыре франшизы. Регулярный сезон НБА длится с октября по апрель, каждая команда проводит 82 матча. Плей-офф турнира лиги продлится до июня. По состоянию на 2020 год игроки НБА являются самыми высокооплачиваемыми спортсменами в мире по среднегодовой зарплате на игрока.
-                НБА является активным членом организации USA Basketball (USAB), которая признана ФИБА (Международная федерация баскетбола) национальным руководящим органом по баскетболу в Соединенных Штатах. Несколько международных офисов лиги, а также офисы отдельных команд находятся в ее головных офисах в центре Манхэттена, в то время как ее студии NBA Entertainment и NBA TV находятся в офисах, расположенных в Секокусе, Нью-Джерси. В Северной Америке НБА является третьей по богатству профессиональной спортивной лигой после Национальной футбольной лиги (НФЛ) и Высшей лиги бейсбола (МЛБ) по доходам и входит в четверку лучших в мире.
-                Бостон Селтикс и Лос-Анджелес Лейкерс сыграли вничью в большинстве чемпионатов НБА - по 17 у каждого. Действующими чемпионами лиги являются "Денвер Наггетс", обыгравшие "Майами Хит" в финале НБА 2023 года.
-            </div>
-        </div>    
+  
         <div class="row">
             <div> 
-                <h1>ВЕЛИЧАЙШИЕ КОМАНДЫ НБА</h1>
+                <div class="animated tada">
+                    <h1>ВЕЛИЧАЙШИЕ КОМАНДЫ НБА</h1>
+                </div>
             </div>
         </div>
          <h1>Чикаго Буллз</h1>
@@ -209,7 +261,9 @@
             </div>
          </div>
          <div>
+            <div class="animated fadeInUp">
             <h1>ВЕЛИЧАЙШИЕ БАСКЕТБОЛИСТЫ</h1>
+            </div>
          </div>
          <div>
             <h1>Шакил О'Нил</h1>
@@ -304,7 +358,7 @@
 
       <div class="col-lg-4">
           <div class="feature d-flex">
-               <svg xmlns="http://www.w3.org/2000/svg" height="4em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M86.6 64l85.2 85.2C194.5 121.7 208 86.4 208 48c0-14.7-2-28.9-5.7-42.4C158.6 15 119 35.5 86.6 64zM64 86.6C35.5 119 15 158.6 5.6 202.3C19.1 206 33.3 208 48 208c38.4 0 73.7-13.5 101.3-36.1L64 86.6zM256 0c-7.3 0-14.6 .3-21.8 .9C238 16 240 31.8 240 48c0 47.3-17.1 90.5-45.4 124L256 233.4 425.4 64C380.2 24.2 320.9 0 256 0zM48 240c-16.2 0-32-2-47.1-5.8C.3 241.4 0 248.7 0 256c0 64.9 24.2 124.2 64 169.4L233.4 256 172 194.6C138.5 222.9 95.3 240 48 240zm463.1 37.8c.6-7.2 .9-14.5 .9-21.8c0-64.9-24.2-124.2-64-169.4L278.6 256 340 317.4c33.4-28.3 76.7-45.4 124-45.4c16.2 0 32 2 47.1 5.8zm-4.7 31.9C492.9 306 478.7 304 464 304c-38.4 0-73.7 13.5-101.3 36.1L448 425.4c28.5-32.3 49.1-71.9 58.4-115.7zM340.1 362.7C317.5 390.3 304 425.6 304 464c0 14.7 2 28.9 5.7 42.4C353.4 497 393 476.5 425.4 448l-85.2-85.2zM317.4 340L256 278.6 86.6 448c45.1 39.8 104.4 64 169.4 64c7.3 0 14.6-.3 21.8-.9C274 496 272 480.2 272 464c0-47.3 17.1-90.5 45.4-124z"/></svg>
+               <svg class="icons" xmlns="http://www.w3.org/2000/svg" height="6em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
                   <div class="feature__block">
                       <h3 class="feature__title">
                           Полная информация 
@@ -386,7 +440,7 @@
                          Свяжитесь с нами
                       </h2>
                        <p class="title__text">
-                             Если обнаружили ошибку, или дополнить сайт
+                             Если хотите получить работу курьером 5 тысяч в час, пишете в свой ник телеграмме
                         </p>
                     </div>
                 </div>
@@ -395,7 +449,7 @@
                  <div class="row">
                       <div class="col-lg-10 ml-auto">
                       <form action="#" class="form"> 
-                             <input type="email" placeholder="Введите ваш e-mail" class="form_input" required>
+                             <input type="email" placeholder="Введите ваш telegramm" class="form_input" required>
                              <button type="submit" class="button">Отправить</button>
                       </form>
                       </div>
@@ -425,17 +479,18 @@
                         </div>
                     </div>  
                 </div>
-<div class="row mx-3 justify-content-center">
-   <div class="col-lg-4">
-      Номер для связи 112;,02;03;102;103;101
-   </div>
-   <div class="col-lg-4">
-      Связь в телеграмме:@chupakapra
-   </div>
-   <div class="col-lg-4">
-      Скиньте на билет артуру в Челябинск: 79875892940 tinkoff
-   </div>
-</div>
+
+                    <div class="row mx-3 justify-content-center">
+                       <div class="col-lg-4">
+                          <p class="footertext">Номер для связи 102 и скажите волшебные слова, за словами в тг</p>
+                       </div>
+                       <div class="col-lg-4">
+                          <p class="footertext">Связь в телеграмме:@yatvoirotadgaradudgu</p>
+                       </div>
+                       <div class="col-lg-4">
+                          <p class="footertext">Скиньте на билет артуру в Челябинск: 79875892940 tinkoff
+                       </div>
+                    </div>
         </div>
 
          <div class="container">
