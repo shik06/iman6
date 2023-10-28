@@ -5,23 +5,61 @@ body{
 	
 }
 
-h3{
-    text-align: center;
-}
-H2{
+h1, h2, h3 {
     text-align: center;
 }
 
-p{
+p {
+/*    text-align: center;*/
+}
+
+.player_info {
+    background-color: #D0D0D0;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.player_title {
+    margin-top: 15px;
     text-align: center;
+}
+
+.player_pic {
+    width: 250px;
+    height: 250px;
+    margin-right: 40px;
+    margin-left: 70px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.player_achievments {
+    margin-top: 35px;
+    font-size: 15px;
+}
+
+.player_bio {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    font-size: 16px;
+}
+
+#chicago_bulls {
+    background-color: #F8173E;
+    color: white;
 }
 
 .header {
-    background-image: url(32.jpg)  ;
+    background-image: url(7.jpg)  ;
     background-repeat: no-repeat;
     background-size: 1500px ; 
     padding-bottom: 300px;
-    text-shadow: 50px 5px 4px;
+/*    text-shadow: 50px 5px 4px;*/
+}
+
+.igroki {
+    text-align: center;
 }
 
 .menu {
@@ -32,7 +70,7 @@ p{
     margin: 0 57px;
 }
 
-.menu__item a {
+.menu__item {
     font-size:22px;
     font-weight:700;
     color: #000;
@@ -46,6 +84,11 @@ p{
     font-size:32px;
     margin-bottom: 15px;
     color: #FFFFFF;
+}
+
+.offer__vizitka{
+    text-color: #ffffff;
+    text-align: center;
 }
 
 .offer__intro {
@@ -127,6 +170,10 @@ p{
     width: 184px;
     margin: 0 auto;
     text-align: right;
+}
+
+.igroki {
+    text-align: center;
 }
 
 
