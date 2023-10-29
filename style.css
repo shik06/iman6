@@ -45,15 +45,79 @@ p {
     font-size: 16px;
 }
 
+/*chicago_bulls*/
+
 #chicago_bulls {
     background-color: #F8173E;
-    color: white;
+    color: #131313;
+}
+
+/*boston selticks*/
+
+#boston_seltikcs{
+    width: 250px;
+    height: 500px;
+    margin-right: 40px;
+    margin-left: 70px;
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
+
+.boston_background{
+    background-color: #00693E;
+    color: #FDF4E3;
+}
+
+/*los angeles lakers*/
+
+.lakers_background{
+   background-color:#FFCF40;
+   color: #8B00FF;
+}
+
+#lakers{
+    width: 250px;
+    height: 550px;
+    margin-right: 40px;
+    margin-left: 70px;
+    margin-top: 15px;
+    margin-bottom: 70px
+}
+
+.lakers_bio{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    font-size: 18px;
+}
+
+/*miami hit*/
+
+#miami_hit{
+    background-color: #7B001C;
+    color: #131313;
+}
+
+/*golden state*/
+
+.golden_state{
+    width: 250px;
+    height: 280px;
+    margin-right: 40px;
+    margin-left: 70px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+#golden_background{
+    background-color: #0E294B;
+    color: #F7F21A;
 }
 
 .header {
     background-image: url(7.jpg)  ;
     background-repeat: no-repeat;
-    background-size: 1500px ; 
+    background-size: 2000px ; 
     padding-bottom: 300px;
 /*    text-shadow: 50px 5px 4px;*/
 }
@@ -64,6 +128,12 @@ p {
 
 .menu {
     margin-top:8px;
+}
+
+.teams__nba {
+    text-align: center;
+    border-radius: 15px; 
+    margin: 25px;
 }
 
 .menu__item {
@@ -86,8 +156,8 @@ p {
     color: #FFFFFF;
 }
 
-.offer__vizitka{
-    text-color: #ffffff;
+.basket-wiki {
+    color: #FFFFFF;
     text-align: center;
 }
 
