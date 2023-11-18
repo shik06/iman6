@@ -95,7 +95,8 @@ p {
 
 #miami_hit{
     background-color: #7B001C;
-    color: #131313;
+/*    color: #131313;*/
+    color: #F4A900;
 }
 
 /*golden state*/
@@ -274,6 +275,10 @@ p {
     border:0;
     outline: none;
 
+}
+
+.prem{
+    text-align: center;
 }
 .title__main, .title__text {
     text-align: center;
