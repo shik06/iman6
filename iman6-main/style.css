@@ -1,0 +1,384 @@
+body{
+	background-color: #FFFFE0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+	
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p {
+/*    text-align: center;*/
+}
+
+.club_info {
+    background-color: #D0D0D0;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.club_title {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.club_pic {
+    width: 250px;
+    height: 250px;
+    margin-right: 40px;
+    margin-left: 70px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.club_achievments {
+    margin-top: 35px;
+    font-size: 15px;
+}
+
+.club_bio {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    font-size: 16px;
+}
+
+.player_info {
+    background-color: #D0D0D0;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.player_title {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.player_pic {
+    width: 250px;
+    height: 250px;
+    margin-right: 40px;
+    margin-left: 70px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.player_achievments {
+    margin-top: 35px;
+    font-size: 15px;
+}
+
+.player_bio {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    font-size: 16px;
+}
+
+/*chicago_bulls*/
+
+#chicago_bulls {
+    background-color: #F8173E;
+    color: #131313;
+}
+
+/*boston selticks*/
+
+#boston_seltikcs{
+    width: 250px;
+    height: 500px;
+    margin-right: 40px;
+    margin-left: 70px;
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
+
+.boston_background{
+    background-color: #00693E;
+    color: #FDF4E3;
+}
+
+/*los angeles lakers*/
+
+.lakers_background{
+   background-color:#FFCF40;
+   color: #8B00FF;
+}
+
+#lakers{
+    width: 250px;
+    height: 550px;
+    margin-right: 40px;
+    margin-left: 70px;
+    margin-top: 15px;
+    margin-bottom: 70px
+}
+
+.lakers_bio{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    font-size: 18px;
+}
+
+/*miami hit*/
+
+#miami_hit{
+    background-color: #7B001C;
+/*    color: #131313;*/
+    color: #F4A900;
+}
+
+/*golden state*/
+
+.golden_state{
+    width: 250px;
+    height: 280px;
+    margin-right: 40px;
+    margin-left: 70px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+#golden_background{
+    background-color: #0E294B;
+    color: #F7F21A;
+}
+
+.header {
+    background-image: url(7.jpg)  ;
+    background-repeat: no-repeat;
+    background-size: 2000px ; 
+    padding-bottom: 300px;
+/*    text-shadow: 50px 5px 4px;*/
+}
+
+.igroki {
+    text-align: center;
+}
+
+.menu {
+    margin-top:8px;
+}
+
+.teams__nba {
+    text-align: center;
+    border-radius: 15px; 
+    margin: 25px;
+}
+
+.menu__item {
+    margin: 0 57px;
+}
+
+.menu__item {
+    font-size:22px;
+    font-weight:700;
+    color: #000;
+}
+
+.offer{
+    margin-top: 117px;
+}
+
+.offer__title {
+    font-size:32px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.basket-wiki {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.offer__intro {
+    font-size: 20px;
+    line-height: 1.3em;
+    color: #FFFFFF;
+}
+
+.offer__text {
+    font-size: 16px;
+    margin-top: 15px;
+    color: #FFFFFF;
+    width: 1000px;
+
+}
+
+.icons__item {
+    margin-right:30px;
+}
+
+.icons__item a {
+    color: #FFFFFF;
+    font-size: 42px;
+    transition: all 0.3s ease; /* плавная анимация*/
+}
+
+.icons__item a:hover {
+    text-decoration: none;
+    color: #ff4800;
+}  /* анимация при наведении на иконки*/
+
+/*Interesting*/
+.feature {
+    margin-bottom: 65px;
+}
+
+.feature__icon {
+    font-size: 50px;
+    margin-right: 37px;
+    color: #000
+}
+
+.feature__text {
+    color: #898989
+}
+
+.feedback {
+
+    background:#000;
+    color: #fff;
+}
+
+/* Футер*/
+
+.footer {
+    background: #000;
+}
+
+.footer_info {
+    color: #fff;
+    font-size: 16px;
+    padding: 50px 0 94px;
+    width: 184px;
+    margin: 0 auto;
+    text-align: left;
+}
+.footer_info1 {
+    color: #fff;
+    font-size: 16px;
+    padding: 50px 0 94px;
+    width: 184px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer_info2 {
+    color: #fff;
+    font-size: 16px;
+    padding: 50px 0 94px;
+    width: 184px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.igroki {
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*.footer_titles {
+
+}*/
+
+/*Feedback*/
+
+.blue{
+
+    color:#95d9fb;
+}
+
+.form_input{
+    background:#FFFFFF;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif; 
+    border-radius: 5px;
+    width: 580px;
+    padding: 15px 0;
+    margin-right: 21px;
+    border:0;
+    outline: none;
+
+}
+
+.prem{
+    text-align: center;
+}
+.title__main, .title__text {
+    text-align: center;
+}
+
+.button {
+  font-family: 'PT Sans', sans-serif; 
+  background:#e0413b;
+  color: #000;
+  text-transform:  uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  width: 126px;
+  border: 0;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .offer {
+        text-align: center;
+    }
+    .offer__text {
+        margin: 20px auto;
+        width: auto;
+    }
+    .icons {
+        justify-content: center;
+    }
+    .icons__item:nth-child(3) {
+        margin-right: 0;
+    }
+    .form__input {
+        margin-right:0;
+        width: 100%;
+    }
+    .button {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .title__text {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ipad {
+        width: 100%;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .menu__item {
+        text-align: center;
+        margin-bottom:10px;
+    }
+}
+
+.footertext {
+    color: #FFE4E1;
+}
+
+.icons {
+    margin-top: 0px;
+}
