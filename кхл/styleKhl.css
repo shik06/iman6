@@ -158,9 +158,9 @@ p {
 }
 
 .header {
-    background-image: url(7.jpg)  ;
+    background-image: url(khl.jpg)  ;
     background-repeat: no-repeat;
-    background-size: 2000px ; 
+    background-size: 100%; 
     padding-bottom: 300px;
 /*    text-shadow: 50px 5px 4px;*/
 }
