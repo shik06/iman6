@@ -1,4 +1,4 @@
-body{
+titbody{
 	background-color: #FFFFE0;
     font-family: 'Lato', sans-serif;
     font-family: 'Nunito', sans-serif;
@@ -328,6 +328,7 @@ p {
 }
 .title__main, .title__text {
     text-align: center;
+    margin-top:  4%
 }
 
 .button {
