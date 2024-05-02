@@ -1,4 +1,3 @@
-body{
 	background-color: #FFFFE0;
     font-family: 'Lato', sans-serif;
     font-family: 'Nunito', sans-serif;
@@ -12,6 +11,16 @@ h1, h2, h3 {
 p {
 /*    text-align: center;*/
 }
+
+.overlay{
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    left: 0;
+    background: rgba(0,0,0,0.20);
+}
+
+khl_
 
 .club_info {
     background-color: #D0D0D0;
@@ -173,10 +182,11 @@ p {
     margin-top:8px;
 }
 
-.teams__nba {
+.teams__khl {
     text-align: center;
     border-radius: 15px; 
-    margin: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .menu__item {
@@ -199,7 +209,7 @@ p {
     color: #FFFFFF;
 }
 
-.basket-wiki {
+.khl_wiki {
     color: #FFFFFF;
     text-align: center;
 }
@@ -291,6 +301,8 @@ p {
 
 .igroki {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -328,6 +340,7 @@ p {
 }
 .title__main, .title__text {
     text-align: center;
+    margin-top: 25px;
 }
 
 .button {
