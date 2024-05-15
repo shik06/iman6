@@ -320,7 +320,6 @@ p {
     margin-right: 21px;
     border:0;
     outline: none;
-
 }
 
 .prem{
@@ -375,6 +374,48 @@ p {
     }
     .title__text {
         width: auto;
+    }
+    .form_input{
+        background:#FFFFFF;
+        font-size: 16px;
+        font-family: 'PT Sans', sans-serif; 
+        border-radius: 5px;
+        width: 100%;
+        padding: 15px 0;
+        margin-right: 21px;
+        border:0;
+        outline: none;
+    }
+    .club_info {
+        background-color: #D0D0D0;
+        border-radius: 15px;
+        margin: 25px;
+    }
+
+    .club_title {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .club_pic {
+        width: 250px;
+        height: 250px;
+        margin-right: 40px;
+        margin-left: 70px;
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+
+    .club_achievments {
+        margin-top: 35px;
+        font-size: 15px;
+    }
+
+    .club_bio {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-right: 60px;
+        font-size: 16px;
     }
 }
 
