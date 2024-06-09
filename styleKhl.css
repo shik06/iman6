@@ -13,6 +13,14 @@ p {
 /*    text-align: center;*/
 }
 
+.khl_wiki{
+    color: #FFFFFF;
+}
+
+.teams_khl{
+
+}
+
 .club_info {
     background-color: #D0D0D0;
     border-radius: 15px;
@@ -162,21 +170,16 @@ p {
     background-repeat: no-repeat;
     background-size: 100%; 
     padding-bottom: 300px;
-/*    text-shadow: 50px 5px 4px;*/
 }
 
 .igroki {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .menu {
     margin-top:8px;
-}
-
-.teams__nba {
-    text-align: center;
-    border-radius: 15px; 
-    margin: 25px;
 }
 
 .menu__item {
@@ -214,21 +217,23 @@ p {
     font-size: 16px;
     margin-top: 15px;
     color: #FFFFFF;
-    width: 1000px;
-
+    width: 100%;
+    background: rgba(40, 40, 40, 0.75);
+    padding: 4%;
+    text-shadow: 2px 2px 2px solid black;
 }
 
 .icons__item {
     margin-right:30px;
 }
 
-.icons__item a {
+.icons__item {
     color: #FFFFFF;
     font-size: 42px;
     transition: all 0.3s ease; /* плавная анимация*/
 }
 
-.icons__item a:hover {
+.icons__item :hover {
     text-decoration: none;
     color: #ff4800;
 }  /* анимация при наведении на иконки*/
@@ -244,12 +249,16 @@ p {
     color: #000
 }
 
+.feature__title1 {
+    text-align: center;
+}
+
 .feature__text {
     color: #898989
 }
 
 .feedback {
-
+    padding-bottom: 50px;
     background:#000;
     color: #fff;
 }
@@ -416,19 +425,6 @@ p {
         margin-bottom: 20px;
         margin-right: 60px;
         font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .ipad {
-        width: 100%;
-    }
-    .menu {
-        flex-direction: column;
-    }
-    .menu__item {
-        text-align: center;
-        margin-bottom:10px;
     }
 }
 
